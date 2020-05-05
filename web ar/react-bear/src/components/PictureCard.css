@@ -1,0 +1,62 @@
+.picturecard-container {
+    width: 160px;
+    border-radius: 4px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,.15);
+    overflow: hidden;
+}
+
+.picturecard {
+  height: 200px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  position: relative;
+}
+
+.picturecard-caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+
+    text-align: center;
+    padding: 4px;
+    margin: 0;
+    background-color: rgba(0,0,0,.60);
+    color: white;
+}
+
+.picturecard-name {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    margin: 0;
+    
+    display: inline;
+    padding: 4px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.877);
+    color: rgb(0, 0, 0);
+}
+
+.picturecard-actions {
+    background-color: rgb(5, 219, 5);
+    display: flex;
+}
+.picturecard-actions2 {
+    background-color: rgb(248, 0, 12);
+}
+.picturecard-actions > div {
+    flex: 1;
+    padding: 4px;
+    text-align: center;
+    font-size: .8em;
+    cursor: pointer;
+    transition: background-color .2s ease-in;
+}
+
+.picturecard-actions > div:hover {
+    background-color: rgb(209, 194, 61);
+}
